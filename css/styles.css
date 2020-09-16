@@ -1,0 +1,116 @@
+/********************************TAG SELECTORS********************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+   color: white;
+   margin: 0px;
+   text-align: center;
+}
+
+h2 {
+    color: #776D8A;
+    margin: 0px;
+    padding: 10px 0px; 
+    text-align: center;
+}
+
+h3 {
+    color: #776D8A;
+    margin: 10px 0px;
+}
+
+hr {
+    border-color: gray;
+    height: 5px;
+    margin: 20px auto 20px auto;
+    opacity: 50%;
+    width: 500px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0px;
+}
+
+a {
+    color: white;
+}
+/********************************CLASS SELECTORS********************************/
+.Header-Div {
+    background-color: #776D8A;
+    position: relative;
+    height: 500px;
+}
+
+.white-header-text {
+    color: white;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    padding-top: 200px;
+}
+
+.hr-header {
+    border-color: white;
+}
+
+.Profile-Div {
+    background-color: white;
+}
+
+.Experiences-Div {
+    background-color: #F3E6E3;
+}
+
+.glyphicon.glyphicon-star {
+    color: lightgray;
+}
+
+.glyphicon.glyphicon-star.filled {
+    color: #776D8A;
+}
+
+.Skills-Div {
+    background-color: white;
+    margin: 0px 10%;
+    padding: 0px 10%;
+}
+
+.Projects-Div {
+    background-color: #F3E6E3;
+}
+
+.Contact-Div {
+    background-color: #434242;
+    height: 400px;
+    padding: 0px 10%;
+}
+
+.fa.fa-github {
+    font-size: 48px;
+}
+
+.fa.fa-google {
+    font-size: 48px;
+}
+
+.fa.fa-linkedin-square {
+    font-size: 48px;
+}
