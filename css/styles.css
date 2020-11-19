@@ -26,12 +26,6 @@ p {
     color: #bbbfca;
 }
 
-strong {
-    display: block;
-    padding-top: 8px;
-    margin-bottom: 10px;
-}
-
 figure {
     position: relative;
     overflow: hidden;
@@ -77,6 +71,12 @@ figure {
 
 .date-only {
     padding-top: 10px;
+}
+
+.position-title {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
 }
 
 .experience-info {
@@ -154,6 +154,10 @@ figure {
     transition: opacity 0.3s ease-in-out;
 }
 
+.fig-inner-text {
+    color: #FFFFFF;
+}
+
 .project-link {
     height: 100%;
     width: 100%;
@@ -178,7 +182,7 @@ figure {
 
 .fig-effect:hover .figure-img {
     transform: scale(1.10);
-    opacity: 0.5;
+    opacity: 0.3;
     
 }
 
