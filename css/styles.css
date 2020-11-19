@@ -34,7 +34,9 @@ strong {
 
 figure {
     position: relative;
+    overflow: hidden;
 }
+
 /*************** CLASS ID SELECTORS ***************/
 
 /* Universal Padding */
@@ -123,24 +125,64 @@ figure {
 
 /* Projects Section */
 
-.fig-text {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+.row div {
+    margin-bottom: 10px;    
+}
+
+.row .center {
+    margin: 0 auto;
+}
+
+.fig-effect {
+    background:  #d65a31;
+    border-radius: 0.28rem;
 }
 
 .figure-img {
     transition: transform 0.3s;
+    margin-bottom: 0;
 }
 
-.figure-img:hover {
+.fig-text {
+    padding: 20px 30px;
     position: absolute;
-    transform: scale(1.05);
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.figure-img:hover + .fig-text {
+.project-link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.external-icon {
+    background: #d65a31;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 36px;
+    height: 36px;
+}
+
+.fa-external-link-alt {
+    font-size: 18px;
+    padding: 9px;
+}
+
+.fig-effect:hover .figure-img {
+    transform: scale(1.10);
+    opacity: 0.5;
+    
+}
+
+.fig-effect:hover .fig-text {
     opacity: 1;
 }
 
