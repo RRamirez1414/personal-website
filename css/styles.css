@@ -69,6 +69,7 @@ figure {
 
 /* Title Section */
 .jumbotron {
+    /* Photo by Brady Knoll from Pexels */
     background: url(../images/pexels-brady-knoll-5409751.jpg) center fixed no-repeat;
     height: 665px;
     margin-bottom: 0;
