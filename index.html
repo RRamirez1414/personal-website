@@ -25,38 +25,84 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
-</head>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 
+
+</head>
 <body>
 
     <!-- Title Section -->
     <section class="lighter-section" id="title">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <h1>Ramon Ramirez</h1>
-                </div>
-                <div class="col-md-4">
-                    <p>-Introduction</p>
-                    <h4>Full Stack Web Developer</h4>
-                </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h1>Ramon Ramirez</h1>
+                <p class="intro">Full Stack Web Developer</p>
             </div>
         </div>
     </section>
 
     <!-- Profile Section -->
     <section class="darker-section" id="profile">
+        <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#profile">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiences">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#abilities">Abilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
         <div class="container-fluid">
             <h2 class="section-header">Profile</h2>
-            <h3>About Me</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.</p>
-            <h3>Details</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>About Me</h3>
+                    <p>I am an extensive web developer. My focus is on back-end programming with a good apprehension of
+                        front-end development. I enjoy working in a team where we heighten each other’s programming
+                        knowledge and skills through projects. I strive for structure, quality, and love incorporating
+                        time for app optimization.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/circle-cropped.png" alt="" width="246px" height="246px">
+                </div>
+                <div class="col-md-4">
+                    <h3>Details</h3>
+                    <div class="details">
+                        <p>
+                            <strong class="white-text">Name:</strong>
+                            <br>
+                            Ramon Ramirez
+                            <br>
+                            <strong class="white-text">Age:</strong>
+                            <br>
+                            25 years
+                            <br>
+                            <strong class="white-text">Location:</strong>
+                            <br>
+                            New Mexico, United States of America
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

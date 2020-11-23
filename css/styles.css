@@ -1,7 +1,11 @@
 /*************** TAG SELECTORS ***************/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    text-align: left;
     border: none;
+    font-family: sans-serif;
 }
 
 hr {
@@ -12,11 +16,13 @@ hr {
     margin: 20px auto;
 }
 
+/* TO DO: move h3 and h4 to their own classes */
+
 h3 {
     margin: 20px 0;
 }
 
-h4 {
+h4 { 
     font-weight: 700;
     margin: 10px 0;
     font-size: 18px;
@@ -37,6 +43,7 @@ figure {
 .container-fluid {
     padding: 5% 19%;
     max-width: 1500px;
+    text-align: left;
 }
 
 /* Section Headers */
@@ -50,7 +57,7 @@ figure {
     color: #FFFFFF;
 }
 
-.lighter-section {
+.lighter-section, .jumbotron {
     background-color: #393e46;
     color: #FFFFFF;
 }
@@ -58,6 +65,33 @@ figure {
 /* Accent Colors */
 .experience-location, .experience-link, .experience-link:hover {
     color: #d65a31;
+}
+
+/* Title Section */
+.jumbotron {
+    background: url(../images/pexels-brady-knoll-5409751.jpg) center fixed no-repeat;
+    height: 665px;
+    margin-bottom: 0;
+}
+
+.jumbotron div {
+    text-align: center;
+}
+
+.container-fluid h1 {
+    border-bottom: 1px solid #bbbfca;
+    padding-bottom: 20px;
+}
+
+/* Profile Section */
+.navbar {
+    background: #222831;
+    position: fixed;
+    width: 100%;
+}
+
+.details {
+    line-height: 1.8;
 }
 
 /* Experiences Section */
@@ -154,7 +188,7 @@ figure {
     transition: opacity 0.3s ease-in-out;
 }
 
-.fig-inner-text {
+.fig-inner-text, .intro, .white-text {
     color: #FFFFFF;
 }
 
