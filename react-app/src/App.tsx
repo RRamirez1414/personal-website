@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { NavBar, AboutMe, Experiences, Skills, Projects } from './components'
 
 const App = () => {

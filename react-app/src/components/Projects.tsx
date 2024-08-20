@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card } from '../elements'
 import { Badge } from 'flowbite-react'
 import { MdArrowOutward } from 'react-icons/md'

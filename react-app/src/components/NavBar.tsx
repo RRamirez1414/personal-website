@@ -1,4 +1,3 @@
-import React from 'react'
 import { Sidebar, Navbar, Avatar, Tooltip, Dropdown } from 'flowbite-react'
 import { MdEmail } from 'react-icons/md'
 import { FaLinkedin } from 'react-icons/fa'

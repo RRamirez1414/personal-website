@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card } from '../elements'
 import { Timeline, Badge } from 'flowbite-react'
 import { RiGraduationCapFill } from 'react-icons/ri'

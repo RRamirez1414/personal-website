@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card } from '../elements'
 import { Rating } from 'flowbite-react'
 
